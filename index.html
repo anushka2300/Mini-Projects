@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <h1> BASIC CALCULATOR</h1>
+    <div class="box">
+    <div class="display">
+        <input type="text" id="dis" disabled placeholder="0">
+    </div>
+    <div class="outer">
+         <button class="but" id="ac" onclick="ac()" >AC</button>
+         <button class="but" id="del" onclick="del()">DEL</button>
+         <button class="but" id="div" onclick="inp('/')">/</button>
+         <button class="but" id="mult" onclick="inp('*')">X</button>
+        <button class="but" onclick="inp('7')">7</button>
+        <button class="but" onclick="inp('8')">8</button>
+        <button class="but" onclick="inp('9')">9</button>
+        <button class="but" id="#minus" onclick="inp('-')">-</button>
+        <button class="but" onclick="inp('4')">4</button>
+        <button class="but" onclick="inp('5')">5</button>
+        <button class="but" onclick="inp('6')">6</button>
+        <button class="but" onclick="inp('+')">+</button>
+        <button class="but" onclick="inp('3')">3</button>
+        <button class="but" onclick="inp('2')">2</button>
+        <button class="but" onclick="inp('1')">1</button>
+        <button  id="equ" onclick="solve()">=</button>
+        <button class="but" onclick="inp('0')">0</button>
+        <button class="but" onclick="inp('.')">.</button>
+        <button class="but" onclick="per()">%</button>
+        <script src="script.js"></script>
+
+</div></div>
+</body>
+</html>

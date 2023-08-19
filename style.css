@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding:0;
+}
+ 
+body{
+    background: #c0bbbb;
+}
+h1{
+    font-weight: bold;
+    position: absolute;
+    left: 38%;
+    text-decoration: underline;
+    margin:10px;
+    font-family: 'Times New Roman', Times, serif;
+    text-shadow: 2px 1px 4px rgb(33, 33, 33);
+}
+.box{
+    width:300px;
+    height: 470px;;
+    padding:20px 30px 80px 30px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:50%;
+    left:50%;
+    border-radius: 25px;
+    background-color:#333;
+    box-shadow: 25px 30px 80px rgb(0,0,0,0.25),
+    10px 20px 70px rgba(0,0,0,0.27),
+    inset -5px -5px 15px rgba(0,0,0,0.5),
+    inset 10px 10px 15px rgba(0,0,0,0.5);
+
+}
+.display{
+    margin: 30px;
+    
+}
+.display input{
+    width:240px;
+    height:60px;
+    border-radius: 5px;
+    background-color:#a7af7c;
+    text-align: right;
+    box-shadow: #9fa57e 25px 30px 80px,
+    #aaaf8d 25px 30px 80px,
+    inset  #aaaf8d -5px -5px 15px,
+    inset 9fa57e 10px 10px 15px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: right;
+}
+.outer{
+    
+    display: grid;
+    grid-template-columns:repeat(4,1fr) ;
+    grid-row-gap:25px;
+    grid-column-gap:16px;
+
+    
+}
+#equ{
+    grid-row: span 2;
+    border-radius: 6px;
+    background-color: rgb(247, 136, 7);
+    box-shadow: #af5a1c 2px 2px 2px,
+    #af5a1c 1px 1px 2px,
+    inset  #d67c23 -2px -2px 5px,
+    inset #c67525 10px 10px 15px; 
+    font-weight: bold;
+    font-size: 28px;
+    border:none;
+    cursor:pointer;
+}
+#equ:active{
+    box-shadow:inset #af5a1c 0px 2px 2px,
+   inset  #af5a1c 0px 5px 11px,
+    inset  #d67c23 0px 15px 25px;
+
+    
+}
+#ac{
+    background-color: red;
+}
+.but{
+    border-radius: 6px;
+    width:60px;
+    height: 60px;;
+    font-size: 28px;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(41, 41, 44);
+    cursor:pointer;
+    border:none;
+    background: linear-gradient(180deg,#c0bbbb,#f4eded);
+    box-shadow:  #a5a59e 2px 2px 2px,
+    #a5a59e 1px 1px 2px,
+   inset rgb(155, 154, 154) -2px -2px 5px,
+    inset rgb(182, 180, 180) 10px 10px 15px; 
+     
+}
+
+button:active{
+    box-shadow:inset 0px 2px 2px rgb(155, 154, 154),
+    inset 0px 5px 11px rgb(155, 154, 154),
+    inset 0px 15px 25px rgb(155, 154, 154);
+    text-shadow: 0px 0px 5px rgb(144, 142, 142);
+}
+
+ 
+
+
+ 
